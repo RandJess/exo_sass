@@ -1,0 +1,82 @@
+/*! minireset.css v0.0.6 | MIT License | github.com/jgthms/minireset.css */
+html, body, p, ol, ul, li, dl, dt, dd, blockquote, figure, fieldset, legend, textarea, pre, iframe, hr, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+ul {
+  list-style: none;
+}
+
+button, input, select {
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+img, video {
+  height: auto;
+  max-width: 100%;
+}
+
+iframe {
+  border: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td, th {
+  padding: 0;
+}
+
+body {
+  background: #000;
+  color: #fff;
+}
+
+p {
+  margin: 1rem;
+}
+
+.btn, .btn-danger {
+  padding: 5px 10px;
+  background: rgb(201, 134, 255);
+  color: rgb(255, 255, 255);
+}
+.btn:hover, .btn-danger:hover {
+  background: rgb(80, 69, 177);
+}
+
+.btn-danger {
+  background: rgb(255, 189, 113);
+}
+.btn-danger:hover {
+  background: rgb(243, 133, 7);
+}
+
+a {
+  text-decoration: none;
+}
+
+.p2 {
+  padding: 15px;
+  background: rgb(18, 112, 18);
+  width: 120px;
+  margin: 5em;
+}
+
+/*# sourceMappingURL=style.css.map */
